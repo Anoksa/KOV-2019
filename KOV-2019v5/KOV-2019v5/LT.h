@@ -28,7 +28,7 @@
 #define LEX_OTHERWISE		'u'																
 #define LEX_RANDOM			'!'																
 #define LEX_STRLEN			'~'	
-#define LEX_STRCMP			'#'
+#define LEX_STRCMP			'^'
 #define LEX_GONEWSTR		'n'																
 #define LEX_STYPE_NULL		' '
 

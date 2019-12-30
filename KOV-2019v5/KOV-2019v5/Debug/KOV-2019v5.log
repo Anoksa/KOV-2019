@@ -1,8 +1,8 @@
-﻿Сборка начата 26.12.2019 21:48:11.
-     1>Проект "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 29.12.2019 20:32:57.
+     1>Проект "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" в узле 2 (целевые объекты Build).
      1>Сборка с инструментами версии "15.0".
        Целевой объект "EnableIntermediateOutputPathMismatchWarning" пропущен из-за невыполненного условия; выражение ('$(RestoreProjectStyle)' == 'PackageReference') равно ('' == 'PackageReference').
-     1>Целевой объект "_CheckForInvalidConfigurationAndPlatform" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "SetTelemetryEnvironmentVariables" зависит от него):
+     1>Целевой объект "_CheckForInvalidConfigurationAndPlatform" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "SetTelemetryEnvironmentVariables" зависит от него):
        Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationError)' == 'true' ) равно ( '' == 'true' ).
        Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationWarning)' == 'true' ) равно ( '' == 'true' ).
        Используется задача "Message" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
@@ -12,53 +12,53 @@
        Задача "Message"
          Platform=Win32
        Выполнение задачи "Message" завершено.
-       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) равно ('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\' != '' and !HasTrailingSlash('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) равно ('D:\универ\курсовой\выаап\KOV-2019v5\Debug\' != '' and !HasTrailingSlash('D:\универ\курсовой\выаап\KOV-2019v5\Debug\')).
        Задача "Error" пропущена из-за невыполненного условия; выражение ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) равно ('obj\' != '' and !HasTrailingSlash('obj\')).
        Задача "Error" пропущена из-за невыполненного условия; выражение ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) равно ('Debug\' != '' and !HasTrailingSlash('Debug\')).
-       Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) равно ( 'D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\obj\' != '' And 'D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\obj\' != 'D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\obj\' ).
-       Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) равно ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\obj\' ).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) равно ( 'D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\obj\' != '' And 'D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\obj\' != 'D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\obj\' ).
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) равно ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\obj\' ).
      1>Сборка целевого объекта "_CheckForInvalidConfigurationAndPlatform" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_CheckForInvalidConfigurationAndPlatform" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "SetTelemetryEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "SetTelemetryEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
        Используется задача "SetEnv" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Задача "SetEnv"
-         VSTEL_SolutionSessionID={4C00E8CB-2E16-4E56-B508-DF2807ACD4A9}
+         VSTEL_SolutionSessionID={C2954B4A-5A4F-43E3-A31E-7883D2BC2E65}
        Выполнение задачи "SetEnv" завершено.
        Задача "SetEnv"
-         VSTEL_CurrentSolutionBuildID=1021996156
+         VSTEL_CurrentSolutionBuildID=246211312
        Выполнение задачи "SetEnv" завершено.
        Задача "SetEnv"
          VSTEL_ProjectID={5F143F39-6660-4ABC-B54F-F3477DBCD586}
        Выполнение задачи "SetEnv" завершено.
      1>Сборка целевого объекта "SetTelemetryEnvironmentVariables" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_PrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "_PrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
        Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuild.IncludeFileToTool)'!='') равно (''!='').
      1>Сборка целевого объекта "_PrepareForBuild" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_PrepareForReferenceResolution" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "_PrepareForReferenceResolution" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
        Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
      1>Сборка целевого объекта "_PrepareForReferenceResolution" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('Error.cpp;FST.cpp;Generation.cpp;Greibach.cpp;In.cpp;IT.cpp;KOV-2019.cpp;LexAnalize.cpp;Log.cpp;LT.cpp;MFST.cpp;Parm.cpp;pch.cpp;PolishNotation.cpp;SemAnalize.cpp'!='' and 'false'=='true' and '' != 'false').
-     1>Целевой объект "BeforeResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "BeforeResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
      1>Сборка целевого объекта "BeforeResolveReferences" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AssignProjectConfiguration" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "AssignProjectConfiguration" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
        Используется задача "AssignProjectConfiguration" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "AssignProjectConfiguration"
        Выполнение задачи "AssignProjectConfiguration" завершено.
      1>Сборка целевого объекта "AssignProjectConfiguration" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "AssignProjectConfiguration" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "_SplitProjectReferencesByFileExistence" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+     1>Целевой объект "_SplitProjectReferencesByFileExistence" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
        Задача "ResolveNonMSBuildProjectOutput" пропущена из-за невыполненного условия; выражение ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') равно ('true'=='true' and ''!='').
      1>Сборка целевого объекта "_SplitProjectReferencesByFileExistence" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_GetProjectReferenceTargetFrameworkProperties" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+     1>Целевой объект "_GetProjectReferenceTargetFrameworkProperties" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
        Используется задача "MSBuild" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "MSBuild"
        Выполнение задачи "MSBuild" завершено.
        Задача "GetReferenceNearestTargetFrameworkTask" пропущена из-за невыполненного условия; выражение ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') равно ('0' != '0' and '.NETFramework,Version=v4.0' != '').
      1>Сборка целевого объекта "_GetProjectReferenceTargetFrameworkProperties" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PrepareProjectReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveProjectReferences" зависит от него):
+     1>Целевой объект "PrepareProjectReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveProjectReferences" зависит от него):
      1>Сборка целевого объекта "PrepareProjectReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_RemoveNameMetadataFromProjectReferenceItems" пропущен из-за невыполненного условия; выражение ('@(ProjectReference)'!='') равно (''!='').
-     1>Целевой объект "ResolveProjectReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "ResolveProjectReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
@@ -70,15 +70,15 @@
        Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
        Целевой объект "ResolveProjectReferences" пропущен. Предыдущая сборка успешна.
        Целевой объект "FindInvalidProjectReferences" пропущен из-за невыполненного условия; выражение ('$(FindInvalidProjectReferences)' == 'true') равно ('' == 'true').
-     1>Целевой объект "GetFrameworkPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "GetFrameworkPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
      1>Сборка целевого объекта "GetFrameworkPaths" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
        Целевой объект "GetWinFXPath" пропущен из-за невыполненного условия; выражение (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) равно (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
        Целевой объект "GetFrameworkPaths" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "GetReferenceAssemblyPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "GetReferenceAssemblyPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
        Задача "GetReferenceAssemblyPaths" пропущена из-за невыполненного условия; выражение ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) равно ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
      1>Сборка целевого объекта "GetReferenceAssemblyPaths" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "SetBuildDefaultEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Целевой объект "SetBuildDefaultEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
        Задача "SetEnv"
          PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;
        Выполнение задачи "SetEnv" завершено.
@@ -94,9 +94,9 @@
      1>Сборка целевого объекта "SetBuildDefaultEnvironmentVariables" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') равно ('' != '' and '' != 'true').
        Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "GetResolvedWinMD" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Целевой объект "GetResolvedWinMD" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
      1>Сборка целевого объекта "GetResolvedWinMD" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PlatformPrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Целевой объект "PlatformPrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(_Error64bitToolsNotInstalled)' == 'true') равно ('' == 'true').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '') равно (''!='true' and 'true' != 'true' and 'v141' == '').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110') равно (''!='true' and 'true' != 'true' and 'v141' == 'v110').
@@ -104,19 +104,19 @@
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') равно (''!='true' and 'true' != 'true' and 'v141' == 'v90').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') равно (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
      1>Сборка целевого объекта "PlatformPrepareForBuild" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_CheckWindowsSDKInstalled" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Целевой объект "_CheckWindowsSDKInstalled" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WindowsSDKInstalled)' != 'true') равно ('true' != 'true').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) равно ('false' != 'true' and 'true' != true).
      1>Сборка целевого объекта "_CheckWindowsSDKInstalled" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "GetFrameworkPaths" пропущен. Предыдущая сборка успешна.
        Целевой объект "GetReferenceAssemblyPaths" пропущен. Предыдущая сборка успешна.
        Целевой объект "AssignLinkMetadata" пропущен из-за невыполненного условия; выражение ( '$(SynthesizeLinkMetadata)' == 'true' ) равно ( '' == 'true' ).
-     1>Целевой объект "SetCABuildNativeEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Целевой объект "SetCABuildNativeEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
        Задача "SetEnv"
          CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
        Выполнение задачи "SetEnv" завершено.
      1>Сборка целевого объекта "SetCABuildNativeEnvironmentVariables" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "PrepareForBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') равно ('' != 'true' and 'true' != 'true').
        Используется задача "MakeDir" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "MakeDir"
@@ -138,38 +138,38 @@
        Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
        Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('Error.cpp;FST.cpp;Generation.cpp;Greibach.cpp;In.cpp;IT.cpp;KOV-2019.cpp;LexAnalize.cpp;Log.cpp;LT.cpp;MFST.cpp;Parm.cpp;pch.cpp;PolishNotation.cpp;SemAnalize.cpp'!='' and 'false'=='true' and '' != 'false').
        Целевой объект "GetInstalledSDKLocations" пропущен из-за невыполненного условия; выражение ('@(SDKReference)' != '') равно ('' != '').
-     1>Целевой объект "ResolveSDKReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "ResolveSDKReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
        Задача "ResolveSDKReference" пропущена из-за невыполненного условия; выражение ('@(SDKReference)'!='') равно (''!='').
      1>Сборка целевого объекта "ResolveSDKReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ResolveSDKReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ExpandSDKReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "ExpandSDKReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
        Задача "GetSDKReferenceFiles" пропущена из-за невыполненного условия; выражение ('@(ResolvedSDKReference)'!='') равно (''!='').
      1>Сборка целевого объекта "ExpandSDKReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ResolveNuGetPackageAssets" пропущен из-за невыполненного условия; выражение ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) равно ('true' == 'true' and exists('obj\project.assets.json')).
        Целевой объект "ImplicitlyExpandNETStandardFacades" пропущен из-за невыполненного условия; выражение ('$(ImplicitlyExpandNETStandardFacades)' == 'true') равно ('' == 'true').
        Целевой объект "GetReferenceAssemblyPaths" пропущен. Предыдущая сборка успешна.
        Целевой объект "ImplicitlyExpandNETStandardFacades" пропущен из-за невыполненного условия; выражение ('$(ImplicitlyExpandNETStandardFacades)' == 'true') равно ('' == 'true').
-     1>Целевой объект "_HandlePackageFileConflicts" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Целевой объект "_HandlePackageFileConflicts" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
        Используется задача "ResolvePackageFileConflicts" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll".
        Задача "ResolvePackageFileConflicts"
        Выполнение задачи "ResolvePackageFileConflicts" завершено.
      1>Сборка целевого объекта "_HandlePackageFileConflicts" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ResolveAssemblyReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "ResolveAssemblyReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
        Задача "ResolveAssemblyReference" пропущена из-за невыполненного условия; выражение ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') равно (''!='' or ''!='' or '' != '').
      1>Сборка целевого объекта "ResolveAssemblyReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "GenerateBindingRedirects" пропущен из-за невыполненного условия; выражение ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') равно ('' == 'true' and 'true' == 'true').
        Целевой объект "_RemoveZipFileSuggestedRedirect" пропущен из-за невыполненного условия; выражение ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true') равно ('4.0' >= '4.7.1' And '' != 'true').
        Целевой объект "GenerateBindingRedirectsUpdateAppConfig" пропущен из-за невыполненного условия; выражение ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) равно ('' == 'true' and 'true' == 'true' and Exists('Debug\KOV-2019v5.exe.config')).
        Целевой объект "ResolveComReferences" пропущен из-за невыполненного условия; выражение ('@(COMReference)'!='' or '@(COMFileReference)'!='') равно (''!='' or ''!='').
-     1>Целевой объект "AfterResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Целевой объект "AfterResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ResolveReferences" зависит от него):
      1>Сборка целевого объекта "AfterResolveReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ImplicitlyExpandDesignTimeFacades" пропущен из-за невыполненного условия; выражение ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') равно ('' == 'true').
        Целевой объект "ResolveTestReferences" пропущен из-за невыполненного условия; выражение ('@(Shadow)'!='') равно (''!='').
-     1>Целевой объект "ResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "ResolveReferences" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
      1>Сборка целевого объекта "ResolveReferences" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "InitializeBuildStatus" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "InitializeBuildStatus" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
        Используется задача "ReadLinesFromFile" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "ReadLinesFromFile"
        Выполнение задачи "ReadLinesFromFile" завершено.
@@ -182,14 +182,14 @@
        Выполнение задачи "Touch" завершено.
      1>Сборка целевого объекта "InitializeBuildStatus" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareProjectReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "BuildGenerateSourcesTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+     1>Целевой объект "BuildGenerateSourcesTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != '' and '' == 'true').
      1>Сборка целевого объекта "BuildGenerateSourcesTraverse" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
        Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "BeforeBuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "BeforeBuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
      1>Сборка целевого объекта "BeforeBuildGenerateSources" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PreBuildEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "PreBuildEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
        Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') равно ('' != '' and '' != '').
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Command)' != '') равно ('' != '').
      1>Сборка целевого объекта "PreBuildEvent" в проекте "KOV-2019v5.vcxproj" завершена.
@@ -201,18 +201,18 @@
        Целевой объект "InitializeBuildStatus" пропущен. Предыдущая сборка успешна.
        Целевой объект "SetBuildDefaultEnvironmentVariables" пропущен. Предыдущая сборка успешна.
        Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') равно ('' != '' and '' != 'true').
-     1>Целевой объект "_SelectedFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFileToFolders" зависит от него):
+     1>Целевой объект "_SelectedFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFileToFolders" зависит от него):
      1>Сборка целевого объекта "_SelectedFiles" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "CopyFileToFolders" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "CopyFileToFolders" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
        Используется задача "GetOutOfDateItems" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Задача "GetOutOfDateItems"
        Выполнение задачи "GetOutOfDateItems" завершено.
        Задача "Copy" пропущена из-за невыполненного условия; выражение ('@(_OutOfDateCopyFile)' != '') равно ('' != '').
      1>Сборка целевого объекта "CopyFileToFolders" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "Xsd" пропущен из-за невыполненного условия; выражение ('@(Xsd)' != '') равно ('' != '').
-     1>Целевой объект "_Xsd" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "_Xsd" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
      1>Сборка целевого объекта "_Xsd" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForMidl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Целевой объект "MakeDirsForMidl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
        Задача "Makedir"
        Выполнение задачи "Makedir" завершено.
      1>Сборка целевого объекта "MakeDirsForMidl" в проекте "KOV-2019v5.vcxproj" завершена.
@@ -220,37 +220,37 @@
        Целевой объект "CustomBuild" пропущен из-за невыполненного условия; выражение ('@(CustomBuild)' != '') равно ('' != '').
        Целевой объект "FxExport" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
        Целевой объект "FxCompile" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
-     1>Целевой объект "ComputeMIDLGeneratedCompileInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Целевой объект "ComputeMIDLGeneratedCompileInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
      1>Сборка целевого объекта "ComputeMIDLGeneratedCompileInputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AfterMidl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Целевой объект "AfterMidl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Midl" зависит от него):
      1>Сборка целевого объекта "AfterMidl" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_Midl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "_Midl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
      1>Сборка целевого объекта "_Midl" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AfterBuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "AfterBuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
      1>Сборка целевого объекта "AfterBuildGenerateSources" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AfterBuildGenerateSourcesEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Целевой объект "AfterBuildGenerateSourcesEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
      1>Сборка целевого объекта "AfterBuildGenerateSourcesEvent" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_BuildGenerateSourcesAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+     1>Целевой объект "_BuildGenerateSourcesAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
      1>Сборка целевого объекта "_BuildGenerateSourcesAction" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "BuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "BuildGenerateSources" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
      1>Сборка целевого объекта "BuildGenerateSources" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareProjectReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "BuildCompileTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildCompile" зависит от него):
+     1>Целевой объект "BuildCompileTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildCompile" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
      1>Сборка целевого объекта "BuildCompileTraverse" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
        Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "BeforeClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "BeforeClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
      1>Сборка целевого объекта "BeforeClCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ComputeCLInputPDBName" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "ComputeCLInputPDBName" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
      1>Сборка целевого объекта "ComputeCLInputPDBName" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ComputeReferenceCLInput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "ComputeReferenceCLInput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
        Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') равно ((''!='') and '' != 'true').
        Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
      1>Сборка целевого объекта "ComputeReferenceCLInput" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "WarnCompileDuplicatedFilename" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "WarnCompileDuplicatedFilename" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'Error.cpp' != 'Error.cpp' and 'Debug\' == 'Debug\').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'FST.cpp' != 'FST.cpp' and 'Debug\' == 'Debug\').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'Generation.cpp' != 'Generation.cpp' and 'Debug\' == 'Debug\').
@@ -267,9 +267,9 @@
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'PolishNotation.cpp' != 'PolishNotation.cpp' and 'Debug\' == 'Debug\').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'SemAnalize.cpp' != 'SemAnalize.cpp' and 'Debug\' == 'Debug\').
      1>Сборка целевого объекта "WarnCompileDuplicatedFilename" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "FixupCLCompileOptions" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "FixupCLCompileOptions" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
      1>Сборка целевого объекта "FixupCLCompileOptions" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForCl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "MakeDirsForCl" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
      1>Сборка целевого объекта "MakeDirsForCl" в проекте "KOV-2019v5.vcxproj" завершена.
@@ -280,92 +280,92 @@
        Целевой объект "WarnCompileDuplicatedFilename" пропущен. Предыдущая сборка успешна.
        Целевой объект "FixupCLCompileOptions" пропущен. Предыдущая сборка успешна.
        Целевой объект "_SelectedFiles" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "SelectCustomBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "SelectClCompile" зависит от него):
+     1>Целевой объект "SelectCustomBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "SelectClCompile" зависит от него):
      1>Сборка целевого объекта "SelectCustomBuild" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "SelectClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ClCompile" зависит от него):
+     1>Целевой объект "SelectClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ClCompile" зависит от него):
      1>Сборка целевого объекта "SelectClCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропущен из-за невыполненного условия; выражение ('$(GenerateTargetFrameworkAttribute)' == 'true') равно ('false' == 'true').
        Целевой объект "ManagedIncrementalBuildPreProcessDependencyGraph" пропущен из-за невыполненного условия; выражение ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') равно ('Error.cpp;FST.cpp;Generation.cpp;Greibach.cpp;In.cpp;IT.cpp;KOV-2019.cpp;LexAnalize.cpp;Log.cpp;LT.cpp;MFST.cpp;Parm.cpp;pch.cpp;PolishNotation.cpp;SemAnalize.cpp' != '' and 'false' == 'True').
-     1>Целевой объект "ClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "ClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
        Задача "Delete" пропущена из-за невыполненного условия; выражение ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) равно ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc141.pdb' != '' and !Exists(Debug\vc141.pdb)).
        Задача "CL" пропущена из-за невыполненного условия; выражение ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') равно ('NotUsing' == 'Create' and ''!='true' and '' == '').
        Используется задача "CL" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Задача "CL"
          Журналы отслеживания чтения:
          	Debug\KOV-2019v5.tlog\CL.read.1.tlog
-         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\ERROR.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\FST.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\GENERATION.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\GREIBACH.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\IN.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\IT.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\KOV-2019.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\LEXANALIZE.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\LOG.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\LT.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\MFST.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\PARM.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\PCH.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\POLISHNOTATION.CPP|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\SEMANALIZE.CPP:
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ
-         Будет выполнена компиляция исходного кода "Generation.cpp", так как D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\Generation.cpp изменено в 26.12.2019 21:48:10.
-         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\GENERATION.CPP:
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ
+         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\ERROR.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\FST.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\GENERATION.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\GREIBACH.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\IN.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\IT.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\KOV-2019.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\LEXANALIZE.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\LOG.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\LT.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\MFST.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\PARM.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\PCH.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\POLISHNOTATION.CPP|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\SEMANALIZE.CPP:
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ
+         Будет выполнена компиляция исходного кода "Greibach.cpp", так как D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\RULE.H изменено в 29.12.2019 20:32:57.
+         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\GREIBACH.CPP:
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ
          Журналы отслеживания записи:
          	Debug\KOV-2019v5.tlog\CL.write.1.tlog
          Переменные окружения переданы инструменту:
-           VS_UNICODE_OUTPUT=1404
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Generation.cpp
+           VS_UNICODE_OUTPUT=1096
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Greibach.cpp
          Команда отслеживания:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\Debug\KOV-2019v5.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\GENERATION.CPP" /b MSBuildConsole_CancelEventa1645ab74c0248f28f0dda363f6af410  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Generation.cpp
-         Generation.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\Debug\KOV-2019v5.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\GREIBACH.CPP" /b MSBuildConsole_CancelEvent50bdae05f1eb4ad2b51e2634cd107ebf  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Greibach.cpp
+         Greibach.cpp
        Выполнение задачи "CL" завершено.
      1>Сборка целевого объекта "ClCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "RunSelectedFileNativeCodeAnalysis" пропущен из-за невыполненного условия; выражение ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='') равно ('false'=='true' and ''!='').
        Целевой объект "ManagedIncrementalBuildPostProcessDependencyGraph" пропущен из-за невыполненного условия; выражение ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') равно ('Error.cpp;FST.cpp;Generation.cpp;Greibach.cpp;In.cpp;IT.cpp;KOV-2019.cpp;LexAnalize.cpp;Log.cpp;LT.cpp;MFST.cpp;Parm.cpp;pch.cpp;PolishNotation.cpp;SemAnalize.cpp' != '' and 'false' == 'True').
-     1>Целевой объект "AfterClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Целевой объект "AfterClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ClCompile" зависит от него):
      1>Сборка целевого объекта "AfterClCompile" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_ClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Целевой объект "_ClCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
      1>Сборка целевого объекта "_ClCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_ResGen" пропущен из-за невыполненного условия; выражение ('@(EmbeddedResource)'!='') равно (''!='').
-     1>Целевой объект "BeforeResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+     1>Целевой объект "BeforeResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
      1>Сборка целевого объекта "BeforeResourceCompile" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+     1>Целевой объект "MakeDirsForResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
      1>Сборка целевого объекта "MakeDirsForResourceCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ResourceCompile" пропущен из-за невыполненного условия; выражение ('@(ResourceCompile)' != '') равно ('' != '').
-     1>Целевой объект "AfterResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+     1>Целевой объект "AfterResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
      1>Сборка целевого объекта "AfterResourceCompile" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_ResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Целевой объект "_ResourceCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
      1>Сборка целевого объекта "_ResourceCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_ImpLib" пропущен из-за невыполненного условия; выражение ('$(ImpLibCompiled)' == 'true') равно ('' == 'true').
        Целевой объект "_Lib" пропущен из-за невыполненного условия; выражение ('$(LibCompiled)' == 'true') равно ('' == 'true').
-     1>Целевой объект "AfterBuildCompileEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Целевой объект "AfterBuildCompileEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
      1>Сборка целевого объекта "AfterBuildCompileEvent" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_BuildCompileAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildCompile" зависит от него):
+     1>Целевой объект "_BuildCompileAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildCompile" зависит от него):
      1>Сборка целевого объекта "_BuildCompileAction" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "BuildCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "BuildCompile" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
      1>Сборка целевого объекта "BuildCompile" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareProjectReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "BuildLinkTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildLink" зависит от него):
+     1>Целевой объект "BuildLinkTraverse" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildLink" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
      1>Сборка целевого объекта "BuildLinkTraverse" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
        Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ComputeLegacyManifestEmbedding" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "ComputeLegacyManifestEmbedding" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') равно ('' == 'true' and '' == 'true').
      1>Сборка целевого объекта "ComputeLegacyManifestEmbedding" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "BeforeLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "BeforeLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "BeforeLink" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeRCOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ComputeRCGeneratedLinkInputs" зависит от него):
+     1>Целевой объект "ComputeRCOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ComputeRCGeneratedLinkInputs" зависит от него):
      1>Сборка целевого объекта "ComputeRCOutputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeRCGeneratedLinkInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeRCGeneratedLinkInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "ComputeRCGeneratedLinkInputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeManifestGeneratedLinkerInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeManifestGeneratedLinkerInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "ComputeManifestGeneratedLinkerInputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeCustomBuildOutput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeCustomBuildOutput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
        Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuildOutputs.OutputItemType)'!='') равно (''!='').
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
@@ -375,18 +375,18 @@
        Целевой объект "ComputeReferenceCLInput" пропущен. Предыдущая сборка успешна.
        Целевой объект "WarnCompileDuplicatedFilename" пропущен. Предыдущая сборка успешна.
        Целевой объект "FixupCLCompileOptions" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ComputeCLOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ComputeCLGeneratedLinkInputs" зависит от него):
+     1>Целевой объект "ComputeCLOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "ComputeCLGeneratedLinkInputs" зависит от него):
      1>Сборка целевого объекта "ComputeCLOutputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeCLGeneratedLinkInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeCLGeneratedLinkInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "ComputeCLGeneratedLinkInputs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeLinkInputsFromProject" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeLinkInputsFromProject" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "ComputeLinkInputsFromProject" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeReferenceLinkInputs" пропущен из-за невыполненного условия; выражение (@(ProjectReference) != '') равно ( != '').
-     1>Целевой объект "ComputeManifestInputsTargets" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeManifestInputsTargets" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "ComputeManifestInputsTargets" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ManifestResourceCompile" пропущен из-за невыполненного условия; выражение ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') равно ('LINK' == 'LINK' and '' != '').
        Целевой объект "AssignWinFXEmbeddedResource" пропущен из-за невыполненного условия; выражение ('@(WinFXEmbeddedResource)' != '') равно ('' != '').
-     1>Целевой объект "AssignTargetPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+     1>Целевой объект "AssignTargetPaths" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
        Используется задача "AssignTargetPath" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "AssignTargetPath"
        Выполнение задачи "AssignTargetPath" завершено.
@@ -399,7 +399,7 @@
        Задача "AssignTargetPath" пропущена из-за невыполненного условия; выражение ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') равно (''=='' and ''=='.manifest').
      1>Сборка целевого объекта "AssignTargetPaths" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "AssignTargetPaths" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "SplitResourcesByCulture" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+     1>Целевой объект "SplitResourcesByCulture" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
        Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ResxWithNoCulture)'!='') равно (''!='').
        Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ResxWithCulture)'!='') равно (''!='').
        Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(NonResxWithCulture)'!='') равно (''!='').
@@ -409,39 +409,39 @@
        Выполнение задачи "AssignCulture" завершено.
      1>Сборка целевого объекта "SplitResourcesByCulture" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "CreateManifestResourceNames" пропущен из-за невыполненного условия; выражение ('@(EmbeddedResource)' != '') равно ('' != '').
-     1>Целевой объект "CreateCustomManifestResourceNames" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+     1>Целевой объект "CreateCustomManifestResourceNames" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
      1>Сборка целевого объекта "CreateCustomManifestResourceNames" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PrepareResourceNames" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "PrepareResourceNames" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "PrepareResourceNames" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "MakeDirsForLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
      1>Сборка целевого объекта "MakeDirsForLink" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "DoLinkOutputFilesMatch" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
-       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' == '') равно ('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe' == '').
-       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') равно ('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and 'D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe' != 'D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe').
-       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') равно ('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and '.exe' != '' and '.exe' != '.exe').
-       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') равно ('D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and 'KOV-2019v5' != '' and 'KOV-2019v5' != 'KOV-2019v5').
+     1>Целевой объект "DoLinkOutputFilesMatch" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' == '') равно ('D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe' == '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') равно ('D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and 'D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe' != 'D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') равно ('D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') равно ('D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe' != '' and 'KOV-2019v5' != '' and 'KOV-2019v5' != 'KOV-2019v5').
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) равно ('' != '' and ('' == '' or '' == 'NotSet')).
      1>Сборка целевого объекта "DoLinkOutputFilesMatch" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PreLinkEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "PreLinkEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
        Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') равно ('' != '' and '' != '').
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PreLinkEvent.Command)' != '') равно ('' != '').
      1>Сборка целевого объекта "PreLinkEvent" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeLinkSwitches" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Link" зависит от него):
+     1>Целевой объект "ComputeLinkSwitches" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Link" зависит от него):
      1>Сборка целевого объекта "ComputeLinkSwitches" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "Link" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "Link" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
        Используется задача "Link" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Задача "Link"
          Журналы отслеживания записи:
          	Debug\KOV-2019v5.tlog\link.write.1.tlog
          Журналы отслеживания чтения:
          	Debug\KOV-2019v5.tlog\link.read.1.tlog
-         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ:
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\DEBUG\KOV-2019V5.EXE
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\DEBUG\KOV-2019V5.ILK
-         	D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\DEBUG\KOV-2019V5.PDB
-         Входные данные для D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ:
+         Выходные данные для D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ:
+         	D:\универ\курсовой\выаап\KOV-2019V5\DEBUG\KOV-2019V5.EXE
+         	D:\универ\курсовой\выаап\KOV-2019V5\DEBUG\KOV-2019V5.ILK
+         	D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\DEBUG\KOV-2019V5.PDB
+         Входные данные для D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ:
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\KERNEL32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\USER32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\GDI32.LIB
@@ -454,21 +454,21 @@
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\UUID.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\ODBC32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X86\ODBCCP32.LIB
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ
-         	D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ
+         	D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ
          	C:\WINDOWS\SYSTEM32\TZRES.DLL
          	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.16.27023\LIB\X86\MSVCPRTD.LIB
@@ -476,10 +476,10 @@
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.16.27023\LIB\X86\OLDNAMES.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.16.27023\LIB\X86\VCRUNTIMED.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X86\UCRTD.LIB
-         Требуется компиляция исходного кода: входные данные D:\универ\курсовой\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ обновились по сравнению с выходными D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\DEBUG\KOV-2019V5.PDB.
+         Требуется компиляция исходного кода: входные данные D:\универ\курсовой\выаап\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ обновились по сравнению с выходными D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\DEBUG\KOV-2019V5.PDB.
          Переменные окружения переданы инструменту:
-           VS_UNICODE_OUTPUT=2580
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.lib" /MACHINE:X86 Debug\Error.obj
+           VS_UNICODE_OUTPUT=1776
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.lib" /MACHINE:X86 Debug\Error.obj
          Debug\FST.obj
          Debug\Generation.obj
          Debug\Greibach.obj
@@ -495,7 +495,7 @@
          Debug\PolishNotation.obj
          Debug\SemAnalize.obj
          Команда отслеживания:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\Debug\KOV-2019v5.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ" /b MSBuildConsole_CancelEvent467e6c5aa52044a3aae6f29031cbddd7  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.lib" /MACHINE:X86 Debug\Error.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\Debug\KOV-2019v5.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\ERROR.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\FST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GENERATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\GREIBACH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IN.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\IT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\KOV-2019.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LEXANALIZE.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LOG.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\LT.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\MFST.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PARM.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\PCH.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\POLISHNOTATION.OBJ|D:\УНИВЕР\КУРСОВОЙ\ВЫААП\KOV-2019V5\KOV-2019V5\DEBUG\SEMANALIZE.OBJ" /b MSBuildConsole_CancelEvent24265ca2df81447292612513117b9bfe  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.lib" /MACHINE:X86 Debug\Error.obj
          Debug\FST.obj
          Debug\Generation.obj
          Debug\Greibach.obj
@@ -512,7 +512,7 @@
          Debug\SemAnalize.obj
        Выполнение задачи "Link" завершено.
        Задача "Message"
-         KOV-2019v5.vcxproj -> D:\универ\курсовой\KOV-2019\KOV-2019v5\Debug\KOV-2019v5.exe
+         KOV-2019v5.vcxproj -> D:\универ\курсовой\выаап\KOV-2019v5\Debug\KOV-2019v5.exe
        Выполнение задачи "Message" завершено.
        Задача "VCMessage" пропущена из-за невыполненного условия; выражение (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                     %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '') равно (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
@@ -524,20 +524,20 @@
        Целевой объект "MetaGenInputsOutputs" пропущен из-за невыполненного условия; выражение ('$(EnableManagedIncrementalBuild)' == 'True') равно ('false' == 'True').
        Целевой объект "ComputeMetaGenInputs" пропущен из-за невыполненного условия; выражение ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') равно ('false'!='' and 'false'!='false').
        Целевой объект "MetaGen" пропущен из-за невыполненного условия; выражение ('@(MetaGen)' != '') равно ('' != '').
-     1>Целевой объект "ComputeLinkImportLibraryOutputsForClean" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "ComputeLinkImportLibraryOutputsForClean" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
        Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение ('@(_LinkSecondaryOutput)' != '') равно ('' != '').
      1>Сборка целевого объекта "ComputeLinkImportLibraryOutputsForClean" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AfterLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Целевой объект "AfterLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_Link" зависит от него):
      1>Сборка целевого объекта "AfterLink" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_Link" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_Link" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_Link" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_ALink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_ALink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_ALink" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeLegacyManifestEmbedding" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "_Manifest" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_Manifest" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
        Задача "CallTarget" пропущена из-за невыполненного условия; выражение ('$(LegacyManifestEmbedding)' == 'true') равно ('' == 'true').
      1>Сборка целевого объекта "_Manifest" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "RegisterOutput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "RegisterOutput" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') равно ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') равно ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') равно ('Application'=='Application' and 'false'=='true' and 'false'!='true').
@@ -546,64 +546,64 @@
      1>Сборка целевого объекта "RegisterOutput" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
        Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "ResolvedXDCMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
+     1>Целевой объект "ResolvedXDCMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') равно ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
      1>Сборка целевого объекта "ResolvedXDCMake" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeCLCompileGeneratedXDCFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
+     1>Целевой объект "ComputeCLCompileGeneratedXDCFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
      1>Сборка целевого объекта "ComputeCLCompileGeneratedXDCFiles" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForXdcMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
+     1>Целевой объект "MakeDirsForXdcMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_XdcMake" зависит от него):
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
      1>Сборка целевого объекта "MakeDirsForXdcMake" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "XdcMake" пропущен из-за невыполненного условия; выражение ('@(XdcMake)' != '') равно ('' != '').
-     1>Целевой объект "_XdcMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_XdcMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_XdcMake" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "ComputeCLCompileGeneratedSbrFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BscMake" зависит от него):
+     1>Целевой объект "ComputeCLCompileGeneratedSbrFiles" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BscMake" зависит от него):
      1>Сборка целевого объекта "ComputeCLCompileGeneratedSbrFiles" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "MakeDirsForBscMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BscMake" зависит от него):
+     1>Целевой объект "MakeDirsForBscMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BscMake" зависит от него):
        Задача "MakeDir"
        Выполнение задачи "MakeDir" завершено.
      1>Сборка целевого объекта "MakeDirsForBscMake" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "BscMake" пропущен из-за невыполненного условия; выражение ('@(BscMake)' != '') равно ('' != '').
        Целевой объект "CustomBuildStep" пропущен из-за невыполненного условия; выражение ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') равно ('' != '' and ''=='').
-     1>Целевой объект "_BscMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_BscMake" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_BscMake" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_GenerateSatelliteAssemblyInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CreateSatelliteAssemblies" зависит от него):
+     1>Целевой объект "_GenerateSatelliteAssemblyInputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CreateSatelliteAssemblies" зависит от него):
        Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') равно (''!='' and ''=='').
        Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') равно (''!='' and ''=='').
      1>Сборка целевого объекта "_GenerateSatelliteAssemblyInputs" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeIntermediateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') равно ( != '').
        Целевой объект "GenerateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение ('@(_SatelliteAssemblyResourceInputs)' != '') равно ('' != '').
-     1>Целевой объект "CreateSatelliteAssemblies" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "CreateSatelliteAssemblies" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "CreateSatelliteAssemblies" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_Appverifier" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_Appverifier" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_Appverifier" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_Deploy" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "_Deploy" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "_Deploy" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "ComputeIntermediateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') равно ( != '').
        Целевой объект "_CopyFilesMarkedCopyLocal" пропущен из-за невыполненного условия; выражение ('@(ReferenceCopyLocalPaths)' != '') равно ('' != '').
        Целевой объект "AssignTargetPaths" пропущен. Предыдущая сборка успешна.
        Целевой объект "_SplitProjectReferencesByFileExistence" пропущен. Предыдущая сборка успешна.
        Целевой объект "_GetProjectReferenceTargetFrameworkProperties" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "GetCopyToOutputDirectoryXamlAppDefs" в файле "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+     1>Целевой объект "GetCopyToOutputDirectoryXamlAppDefs" в файле "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
        Задача "AssignTargetPath"
        Выполнение задачи "AssignTargetPath" завершено.
      1>Сборка целевого объекта "GetCopyToOutputDirectoryXamlAppDefs" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "GetCopyToOutputDirectoryItems" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_CopySourceItemsToOutputDirectory" зависит от него):
+     1>Целевой объект "GetCopyToOutputDirectoryItems" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_CopySourceItemsToOutputDirectory" зависит от него):
        Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') равно ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
        Задача "AssignTargetPath"
        Выполнение задачи "AssignTargetPath" завершено.
      1>Сборка целевого объекта "GetCopyToOutputDirectoryItems" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_CopyOutOfDateSourceItemsToOutputDirectory" пропущен из-за невыполненного условия; выражение ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) равно ( '' != '' ).
        Целевой объект "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" пропущен из-за невыполненного условия; выражение ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) равно ( '' != '' ).
-     1>Целевой объект "_CopySourceItemsToOutputDirectory" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+     1>Целевой объект "_CopySourceItemsToOutputDirectory" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
      1>Сборка целевого объекта "_CopySourceItemsToOutputDirectory" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_CopyAppConfigFile" пропущен из-за невыполненного условия; выражение ( '@(AppConfigWithTargetPath)' != '' ) равно ( '' != '' ).
        Целевой объект "_CopyManifestFiles" пропущен из-за невыполненного условия; выражение ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) равно ( ''=='true' or ''=='true' ).
-     1>Целевой объект "_CheckForCompileOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+     1>Целевой объект "_CheckForCompileOutputs" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
      1>Сборка целевого объекта "_CheckForCompileOutputs" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_SGenCheckForOutputs" пропущен из-за невыполненного условия; выражение ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) равно ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-     1>Целевой объект "CopyFilesToOutputDirectory" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForRun" зависит от него):
+     1>Целевой объект "CopyFilesToOutputDirectory" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "PrepareForRun" зависит от него):
        Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') равно ('true' == 'true' and 'true' != 'true').
        Задача "CopyRefAssembly" пропущена из-за невыполненного условия; выражение ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') равно ('false' == 'true' and 'true' == 'true' and 'true' != 'true').
        Задача "Message" пропущена из-за невыполненного условия; выражение ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') равно ('true' == 'true' and 'true'!='true').
@@ -616,20 +616,20 @@
        Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') равно ('' != 'true' and '' != '').
        Задача "Message" пропущена из-за невыполненного условия; выражение ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') равно ('' != 'true' and '' != '').
      1>Сборка целевого объекта "CopyFilesToOutputDirectory" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "PrepareForRun" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "PrepareForRun" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
      1>Сборка целевого объекта "PrepareForRun" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "CustomBuildStep" пропущен из-за невыполненного условия; выражение ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') равно ('' != '' and ''=='').
-     1>Целевой объект "PostBuildEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Целевой объект "PostBuildEvent" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
        Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') равно ('' != '' and '' != '').
        Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PostBuildEvent.Command)' != '') равно ('' != '').
      1>Сборка целевого объекта "PostBuildEvent" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "_BuildLinkAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildLink" зависит от него):
+     1>Целевой объект "_BuildLinkAction" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "BuildLink" зависит от него):
      1>Сборка целевого объекта "_BuildLinkAction" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "BuildLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "BuildLink" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
      1>Сборка целевого объекта "BuildLink" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "AfterBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "AfterBuild" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
      1>Сборка целевого объекта "AfterBuild" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Целевой объект "FinalizeBuildStatus" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
+     1>Целевой объект "FinalizeBuildStatus" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (целевой объект "Build" зависит от него):
        Используется задача "Delete" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Задача "Delete"
          Файл "Debug\KOV-2019v5.tlog\unsuccessfulbuild" удаляется.
@@ -640,12 +640,12 @@
      1>Сборка целевого объекта "FinalizeBuildStatus" в проекте "KOV-2019v5.vcxproj" завершена.
        Целевой объект "_CheckForInvalidConfigurationAndPlatform" пропущен. Предыдущая сборка успешна.
        Целевой объект "_CheckForInvalidConfigurationAndPlatform" пропущен. Предыдущая сборка успешна.
-     1>Целевой объект "Build" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (точка входа):
+     1>Целевой объект "Build" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" из проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" (точка входа):
      1>Сборка целевого объекта "Build" в проекте "KOV-2019v5.vcxproj" завершена.
-     1>Сборка проекта "D:\универ\курсовой\KOV-2019\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" завершена (целевые объекты Build).
+     1>Сборка проекта "D:\универ\курсовой\выаап\KOV-2019v5\KOV-2019v5\KOV-2019v5.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:01.53
+Прошло времени 00:00:01.44

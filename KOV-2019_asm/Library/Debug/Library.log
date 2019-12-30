@@ -1,4 +1,4 @@
-﻿Сборка начата 26.12.2019 22:17:00.
+﻿Сборка начата 27.12.2019 18:05:14.
      1>Проект "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Library.vcxproj" в узле 2 (целевые объекты Rebuild).
      1>Сборка с инструментами версии "15.0".
        Целевой объект "EnableIntermediateOutputPathMismatchWarning" пропущен из-за невыполненного условия; выражение ('$(RestoreProjectStyle)' == 'PackageReference') равно ('' == 'PackageReference').
@@ -22,10 +22,10 @@
      1>Целевой объект "SetTelemetryEnvironmentVariables" в файле "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" из проекта "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Library.vcxproj" (целевой объект "Rebuild" зависит от него):
        Используется задача "SetEnv" из сборки "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Задача "SetEnv"
-         VSTEL_SolutionSessionID={52D805FC-0127-481A-8A7C-B957B8ED2823}
+         VSTEL_SolutionSessionID={756493D3-EA65-4130-92AF-3093F8EA3E18}
        Выполнение задачи "SetEnv" завершено.
        Задача "SetEnv"
-         VSTEL_CurrentSolutionBuildID=1023725562
+         VSTEL_CurrentSolutionBuildID=64547421
        Выполнение задачи "SetEnv" завершено.
        Задача "SetEnv"
          VSTEL_ProjectID={EE70C26D-04FC-4B62-822B-A7F41327201A}
@@ -353,12 +353,14 @@
        Задача "CL"
          Выполняется принудительная повторная компиляция всех исходных файлов в связи с отсутствием PDB-файла "Debug\Library.pdb".
          Переменные окружения переданы инструменту:
-           VS_UNICODE_OUTPUT=1368
+           VS_UNICODE_OUTPUT=2544
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Library.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\..\..\kao\StaticLib.cpp
          Команда отслеживания:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Debug\Library.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KAO\STATICLIB.CPP" /b MSBuildConsole_CancelEventda7e2aea881d4a1e9b183cb86338732a  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Library.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\..\..\kao\StaticLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Debug\Library.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KAO\STATICLIB.CPP" /b MSBuildConsole_CancelEvent850325c4c30e42fea8980515de9bb99f  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Library.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\..\..\kao\StaticLib.cpp
          StaticLib.cpp
-     1>d:\универ\курсовой\kao\staticlib.cpp(34): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\универ\курсовой\kao\staticlib.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\универ\курсовой\kao\staticlib.cpp(41): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\универ\курсовой\kao\staticlib.cpp(37): warning C4715: Strcmp: значение возвращается не при всех путях выполнения
        Выполнение задачи "CL" завершено.
      1>Сборка целевого объекта "ClCompile" в проекте "Library.vcxproj" завершена.
        Целевой объект "RunSelectedFileNativeCodeAnalysis" пропущен из-за невыполненного условия; выражение ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='') равно ('false'=='true' and ''!='').
@@ -425,7 +427,7 @@
          Все исходные файлы устарели: отсутствует журнал отслеживания команд "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Debug\Library.tlog\Lib.command.1.tlog".
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\Lib.exe /OUT:"D:\универ\курсовой\KOV-2019\KOV-2019_asm\Debug\Library.lib" /NOLOGO Debug\StaticLib.obj
          Команда отслеживания:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Debug\Library.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019_ASM\LIBRARY\DEBUG\STATICLIB.OBJ" /b MSBuildConsole_CancelEvent266cdd341b4e4671983285be191f1c4e  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\Lib.exe"  /OUT:"D:\универ\курсовой\KOV-2019\KOV-2019_asm\Debug\Library.lib" /NOLOGO Debug\StaticLib.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Debug\Library.tlog" /r "D:\УНИВЕР\КУРСОВОЙ\KOV-2019\KOV-2019_ASM\LIBRARY\DEBUG\STATICLIB.OBJ" /b MSBuildConsole_CancelEvent23623b4e88b840e7aef35e9ded07831b  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\Lib.exe"  /OUT:"D:\универ\курсовой\KOV-2019\KOV-2019_asm\Debug\Library.lib" /NOLOGO Debug\StaticLib.obj
        Выполнение задачи "LIB" завершено.
        Задача "Message"
          Library.vcxproj -> D:\универ\курсовой\KOV-2019\KOV-2019_asm\Debug\Library.lib
@@ -584,9 +586,11 @@
 
        "D:\универ\курсовой\KOV-2019\KOV-2019_asm\Library\Library.vcxproj" (целевой объект Rebuild ) (1) ->
        (ClCompile конечный объект) -> 
-         d:\универ\курсовой\kao\staticlib.cpp(34): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         d:\универ\курсовой\kao\staticlib.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
+         d:\универ\курсовой\kao\staticlib.cpp(41): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         d:\универ\курсовой\kao\staticlib.cpp(37): warning C4715: Strcmp: значение возвращается не при всех путях выполнения
 
-    Предупреждений: 1
+    Предупреждений: 3
     Ошибок: 0
 
-Прошло времени 00:00:03.05
+Прошло времени 00:00:02.08

@@ -466,6 +466,70 @@ namespace LexAnalysis
 				entryIT = {};
 				continue;
 			}
+			FST::FST fstLiteralInt2(word[i], GRAPH_INT2);
+			if (FST::execute(fstLiteralInt2))
+			{
+				int value = strtol((char*)word[i], NULL, 2);
+
+				for (int k = 0; k < idtable.size; k++)
+				{
+					if (idtable.table[k].value.vint == value && idtable.table[k].idtype == IT::L && idtable.table[k].iddatatype == IT::INT)
+					{
+						LT::Entry entryLT = AddLex(entryLT, LEX_LITERAL, k, line, LEX_STYPE_NULL);
+						LT::Add(lextable, entryLT);
+						dbID = true;
+						break;
+					}
+				}
+
+				if (dbID)	continue;
+
+				LT::Entry entryLT = AddLex(entryLT, LEX_LITERAL, iID++, line, LEX_STYPE_NULL);
+				LT::Add(lextable, entryLT);
+				entryIT.idtype = IT::L;
+				entryIT.iddatatype = IT::INT;
+				entryIT.value.vint = value;
+				entryIT.idxfirstLE = iLex;
+				_itoa_s(countLit++, charclit, sizeof(char) * 10, 10);
+				_mbscpy(bufL, L);
+				word[i] = _mbscat(bufL, (unsigned char*)charclit);
+				_mbscpy(entryIT.id, word[i]);
+				IT::Add(idtable, entryIT);
+				entryIT = {};
+				continue;
+			}
+			FST::FST fstLiteralInt8(word[i], GRAPH_INT8);
+			if (FST::execute(fstLiteralInt8))
+			{
+				int value = strtol((char*)word[i], NULL, 8);
+
+				for (int k = 0; k < idtable.size; k++)
+				{
+					if (idtable.table[k].value.vint == value && idtable.table[k].idtype == IT::L && idtable.table[k].iddatatype == IT::INT)
+					{
+						LT::Entry entryLT = AddLex(entryLT, LEX_LITERAL, k, line, LEX_STYPE_NULL);
+						LT::Add(lextable, entryLT);
+						dbID = true;
+						break;
+					}
+				}
+
+				if (dbID)	continue;
+
+				LT::Entry entryLT = AddLex(entryLT, LEX_LITERAL, iID++, line, LEX_STYPE_NULL);
+				LT::Add(lextable, entryLT);
+				entryIT.idtype = IT::L;
+				entryIT.iddatatype = IT::INT;
+				entryIT.value.vint = value;
+				entryIT.idxfirstLE = iLex;
+				_itoa_s(countLit++, charclit, sizeof(char) * 10, 10);
+				_mbscpy(bufL, L);
+				word[i] = _mbscat(bufL, (unsigned char*)charclit);
+				_mbscpy(entryIT.id, word[i]);
+				IT::Add(idtable, entryIT);
+				entryIT = {};
+				continue;
+			}
 
 			FST::FST fstLiteralString(word[i], GRAPH_STRING_LITERAL);
 			if (FST::execute(fstLiteralString))

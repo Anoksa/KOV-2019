@@ -235,7 +235,6 @@ namespace CodeGeneration
 							*(log.stream) << "\tcall " << table.idtable.table[table.lextable.table[i - countParm - 1].idxTI].id << "\n\tpush eax\n";
 							flag_callfunc = false;
 						}
-
 						if (flag_strlen)
 						{
 							*(log.stream) << "\tcall Strlen;" << "\n" << "\tpush eax\n";
@@ -243,7 +242,7 @@ namespace CodeGeneration
 						}
 						if (flag_strcmp)
 						{
-							*(log.stream) << "\tcall Strcmp; не понимаю зачем ты вылезло" << "\n" << "\tpush eax\n";
+							*(log.stream) << "\tcall Strcmp; " << "\n" << "\tpush eax\n";
 							flag_strcmp = false;
 						}
 						if (flag_random)
